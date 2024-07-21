@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "Capstone"
+version = "0.1.0"
+description = "A python based movie recommendation system."
+authors = ["Edgaras Gacionis <gyvenimasritmu@gmail.com>"]
+license = "Turing"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.2"
+greenlet = "3.0.3"
+numpy = "1.26.4"
+pandas = "2.2.1"
+psycopg2 = "2.9.9"
+psycopg2-binary = "2.9.9"
+python-dateutil = "2.9.0.post0"
+pytz = "2024.1"
+six = "1.16.0"
+sqlalchemy = "2.0.29"
+typing-extensions = "4.10.0"
+tzdata = "2024.1"
+
+
+#[tool.poetry.include]
+# data = [
+# Include Python modules
+#    "analyzer/**",
+#    "api/**",
+#    "config/**",
+#    "database/**",
+#    "recommender/**",
+#    "scripts/**",
+#    "tests/**",
+#]
+setuptools = "^69.2.0"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.scripts]
+myapp = 'main:main'
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

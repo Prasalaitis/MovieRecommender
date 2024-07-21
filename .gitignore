@@ -1,0 +1,10 @@
+../.idea/
+.env
+../.ipynb_checkpoints
+__pycache__/
+dist/
+build/
+.idea/
+Data/*
+myenv/
+
