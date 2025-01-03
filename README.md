@@ -33,7 +33,7 @@ The project is structured as follows:
 First, clone the repository to your local machine:
 
 ```sh
-git clone https://github.com/TuringCollegeSubmissions/egacio-DE1.v2.4.1.git Capstone
+git clone https://github.com/Prasalaitis/MovieRecommender.git Capstone
 ```
 
 Install the project dependencies using Poetry or pip:
